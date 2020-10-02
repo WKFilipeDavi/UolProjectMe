@@ -10,6 +10,10 @@ header .advertising{
 
 }
 
+.adv1{
+    width: 38%
+}
+
     /* =========== Título uol ===========*/
 nav{
     /*background-color: #2977F3;*/
@@ -108,4 +112,47 @@ main .main .title h4{
     letter-spacing: 0.12rem;
     font-size: 0.7rem;
     text-transform: uppercase;
+}
+
+/* Media Querys =================================================== */
+
+@media only screen and (min-width: 720px)
+{
+    /*=============  advertising 1 ==================*/
+    .adv1{
+        width: 20%;
+
+    }
+
+    /*===============  Bloco de notícias 1 ================ */
+    .one img{
+        width: unset;
+        height: unset;
+    }
+
+    .rowInsidecol
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .one p {
+        font-size: 1.1rem;
+        line-height: unset;
+    }
+
+    .oneTextDiv{
+        padding: unset !important;
+    }
+
+    main .main .title h4 {
+        font-size: 2.1rem;
+        line-height: 2.55rem;
+    }
+
+    main .main .title p {
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+
 }
